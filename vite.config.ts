@@ -13,5 +13,5 @@ export default defineConfig({
       "@": path.resolve(dirname, "./src"),
     },
   },
-  base: "/",
+  base: "/luxury_presence_assessment/",
 });

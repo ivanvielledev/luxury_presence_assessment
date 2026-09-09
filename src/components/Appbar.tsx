@@ -1,8 +1,8 @@
 import headerImg from "@/assets/header.webp";
-import MenuDrawer from "./MenuDrawer";
+import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
-import { motion, useScroll, useMotionValueEvent } from "framer-motion";
+import MenuDrawer from "./MenuDrawer";
 
 const Appbar = () => {
   const [isVisible, setIsVisible] = useState(true);

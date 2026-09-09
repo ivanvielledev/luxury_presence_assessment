@@ -1,5 +1,4 @@
-import React from "react";
-import { MapPin, Navigation, ExternalLink } from "lucide-react";
+import { ExternalLink, MapPin, Navigation } from "lucide-react";
 
 const Map = () => {
   // Pahrump, NV Google Maps Embed URL
