@@ -1,9 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import routes from ".";
 
-const router = createBrowserRouter(routes, {
-  basename: "/luxury_presence_assessment",
-});
+const router = createBrowserRouter(routes);
 
 const AppRouter = () => {
   return <RouterProvider router={router} />;
